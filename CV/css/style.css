@@ -101,5 +101,9 @@ text-align: center;
 }
 
 a:active { 
-    color: lime; 
+    color: red; 
 }   
+
+a:hover { 
+    background: #309FFF; 
+}
