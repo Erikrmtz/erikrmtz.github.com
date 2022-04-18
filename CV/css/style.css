@@ -3,12 +3,6 @@ body {
     margin: 0;
 }
 
-header {
-    background-color:blue;
-    text-align:center;
-    padding:16px;
-}
-
 h1 {
     display:inline-block;
     width:400px;color:white;
@@ -78,4 +72,10 @@ li{
 .foto {
     width:300;  
     height:300;
+}
+
+.nombre {
+    background-color:blue;
+    text-align:center;
+    padding:16px;
 }
