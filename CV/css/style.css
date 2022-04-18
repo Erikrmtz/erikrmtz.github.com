@@ -71,6 +71,7 @@ li{
 }
 
 .pro {
+    display:inline-block;
     margin-top: 70px;
 }
 
