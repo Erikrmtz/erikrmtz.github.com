@@ -3,7 +3,7 @@ body {
     margin: 0;
 }
 
-header{
+header {
     background-color:blue;
     text-align:center;
     padding:16px;
@@ -15,7 +15,7 @@ h1 {
     font-weight:bold;
 }
 
-h3{
+h3 {
     font-size: 36px;
     font-weight: bold;
 }
@@ -27,13 +27,13 @@ p {
     font-size: 28px;
 }
 
-dt{
+dt {
     font-size: 22px;
     margin-bottom: 12px;
     margin-top: 32px;
 }
 
-dd{
+dd {
 margin: 0;
 }
 
@@ -57,7 +57,7 @@ li{
     vertical-align: top;
 }
 
-.seccion{
+.seccion {
     width: 960px;
     height: 200px;
     margin-right:auto;
@@ -74,7 +74,7 @@ li{
     margin-top: 70px;
 }
 
-.foto{
+.foto {
     width:300;  
     height:300;
 }
