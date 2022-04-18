@@ -1,0 +1,80 @@
+body {
+    font-family:Helvetica, Arial, sans-serif;
+    margin: 0;
+}
+
+header{
+    background-color:blue;
+    text-align:center;
+    padding:16px;
+}
+
+h1 {
+    display:inline-block;
+    width:400px;color:white;
+    font-weight:bold;
+}
+
+h3{
+    font-size: 36px;
+    font-weight: bold;
+}
+
+p {
+    display:inline-block;
+    width:400px;color:white;
+    font-weight:200;
+    font-size: 28px;
+}
+
+dt{
+    font-size: 22px;
+    margin-bottom: 12px;
+    margin-top: 32px;
+}
+
+dd{
+margin: 0;
+}
+
+ul {
+    margin-top: 12px;
+}
+
+li{
+    margin-top: 16px;
+}
+
+.about {
+    background-color:#bf8c8c;
+    text-align:center;
+    padding:10px;
+}
+
+.edu {
+    display:inline-block;
+    width: 68%;
+    vertical-align: top;
+}
+
+.seccion{
+    width: 960px;
+    height: 200px;
+    margin-right:auto;
+    margin-left:auto;
+}
+
+.yo{
+    display:inline-block;
+    width: 30%; 
+    margin-top: 20px;
+}
+
+.pro {
+    margin-top: 70px;
+}
+
+.foto{
+    width:300;  
+    height:300;
+}
