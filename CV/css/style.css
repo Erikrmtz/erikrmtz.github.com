@@ -5,9 +5,19 @@ body {
 
 h1 {
     display:inline-block;
-    width:400px;color:white;
+    width:400px;
+    color:white;
+    font-weight:bold;
+    margin-top: 10px;
+}
+
+h2 {
+    display:inline-block;
+    width: 100%;
+    color:black;
     font-weight:bold;
     margin-top: 20px;
+    text-align: center;
 }
 
 h3 {
@@ -18,7 +28,7 @@ h3 {
 p {
     color:white;
     font-weight:200;
-    font-size: 30px;
+    font-size: 25px;
     text-align: center;
     padding-bottom: 10px;
 }
@@ -61,8 +71,7 @@ li a{
 .seccion {
     width: 960px;
     height: 200px;
-    margin-right:auto;
-    margin-left:auto;
+    align-items: center;
 }
 
 .yo{
@@ -77,8 +86,8 @@ li a{
 }
 
 .foto {
-    width:300;  
-    height:300;
+    display:inline-block;
+    align-items: center;
 }
 
 .nombre { 
@@ -96,14 +105,20 @@ li a{
     background-color: #002C8C;
 }
 
-.nav-item{
-text-align: center;
-}
-
 a:active { 
     color: red; 
 }   
 
 a:hover { 
     background: #309FFF; 
+}
+
+
+.parrafo{
+
+        color: black;
+        font-weight:200;
+        font-size: 20px;
+        text-align: center;
+        padding-bottom: 10px;
 }
