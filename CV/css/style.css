@@ -1,14 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+@import 'animate.css';
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #24252A;
+}
+
+.nav__links a,
+.cta,
+.overlay__content a {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}
+
+.nav__links{
+   list-style: none;
+   display:inline-block;
+   width: 100%;
+}
+
+.nav__links li{
+    display:inline-block;
+    padding: 0px 10px;
+ }
+.nav__links li a{
+    transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover{
+    color:#0088a9
+}
+
+button{
+    padding: 9px 25px;
+    background-color: rgba(0,136,169,1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    font-family: "Monserrat", sans-serif;
+}
+
+button:hover{
+    color:white
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
 body {
-    font-family:Helvetica, Arial, sans-serif;
+    font-family: "Monserrat", sans-serif;
     margin: 0;
 }
 
 h1 {
     display:inline-block;
     width:400px;
-    color:white;
+    color:black;
     font-weight:bold;
     margin-top: 10px;
+    background-color:white;
 }
 
 h2 {
@@ -16,8 +75,9 @@ h2 {
     width: 100%;
     color:black;
     font-weight:bold;
-    margin-top: 20px;
     text-align: center;
+    background-color: white;
+    padding-top: 10px;
 }
 
 h3 {
@@ -26,11 +86,12 @@ h3 {
 }
 
 p {
-    color:white;
+    display: inline-block;
+    color: black;
     font-weight:200;
     font-size: 25px;
     text-align: center;
-    padding-bottom: 10px;
+    background-color: white;
 }
 
 dt {
@@ -56,10 +117,22 @@ li a{
     align-items: center;
 }
 
+.logo {
+    cursor: pointer;
+  }
+
 .about {
     background-color:#bf8c8c;
     text-align:center;
-    padding: 10px;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.titulo{
+    background-color: #24252A; 
+    color:white;
+    padding-top: 10px;
 }
 
 .edu {
@@ -85,16 +158,13 @@ li a{
     margin-top: 70px;
 }
 
-.foto {
-    display:inline-block;
-    align-items: center;
-}
-
 .nombre { 
     display:inline-block;
-    background-color:blue;
+    background-color:white;
     text-align:center; 
     width: 100%;
+    color: black;
+    margin: 0 auto;
 }
 
 .social {
@@ -110,15 +180,22 @@ a:active {
 }   
 
 a:hover { 
-    background: #309FFF; 
+    background: #24252A; 
 }
 
 
 .parrafo{
-
-        color: black;
+        color: white;
         font-weight:200;
         font-size: 20px;
         text-align: center;
         padding-bottom: 10px;
+        margin: 0 auto;
+        background-color: #24252A;
+        padding-top: 10px;
+}
+
+.imagen{
+    margin-top: 0%;
+    background-color: #24252A;
 }
