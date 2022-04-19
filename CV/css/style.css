@@ -54,7 +54,7 @@ button:hover{
 header {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: left;
     padding: 30px 10%;
 }
 
@@ -114,9 +114,12 @@ ul {
   background-color: #6d4444;
 }
 
-li a{
-    margin-top: 16px;
-    align-items: center;
+footer {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 20px 10%;
+padding-top: 30px;
 }
 
 .logo {
@@ -173,11 +176,34 @@ li a{
     list-style-type: none;
     padding: 0; 
     margin: 0;
-    padding-top: 10px;
+    width: 100%;
 }
+
+.social li a{
+  color: brown;
+}
+
+.social li{
+    color: white;
+  }
 
 .barra{
     background-color: #002C8C;
+}
+
+.contact {
+    background-color: skyblue;
+}
+
+.keep{
+    color: black;
+    background-color: #309FFF;
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-family: "Monserrat", sans-serif;
 }
 
 a:active { 
@@ -204,3 +230,10 @@ a:hover {
     margin-top: 0%;
     background-color: #24252A;
 }
+
+.redes{
+    background-color: #24252A;
+    font-size: 15px;
+    color: white;
+}
+
