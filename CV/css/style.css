@@ -298,17 +298,18 @@ dl{
     width: 100%;
 }
 
+
 .redes{
     background-color: #24252A;
     font-size: 15px;
     color: white;
 }
 
-img {
+img .edu, .logo{
     transition:transform 0.25s ease;
 }
 
-img:hover{
+img .edu, .logo:hover{
     -webkit-transform:scale(1.5); 
     transform:scale(1.5);
 }
